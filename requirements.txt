@@ -1,0 +1,24 @@
+# Core IR & NLP
+rank-bm25>=0.2.2
+spacy>=3.7.0
+nltk>=3.8.1
+
+# Deep Learning & Transformers (Query Rewriter & Cross-Encoder)
+torch>=2.2.0
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+accelerate>=0.29.0
+
+# Data Processing & Utilities
+pandas>=2.2.0
+numpy>=1.26.0
+tqdm>=4.66.0
+ijson>=3.2.0
+
+# Interactive Notebook Environment
+jupyter>=1.0.0
+notebook>=7.1.0
+ipywidgets>=8.1.0
+
+# Evaluation & Metrics
+scikit-learn>=1.4.0
