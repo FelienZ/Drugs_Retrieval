@@ -1,0 +1,656 @@
+[
+  {
+    "session_id": "SESSION_01",
+    "topic_drug": "Deferasirox",
+    "num_turns": 5,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What is Deferasirox prescribed for?",
+        "manual_query": "What are the indications and usage for Deferasirox?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_00004",
+          "PASSAGE_00005",
+          "PASSAGE_04653"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the recommended starting dose?",
+        "manual_query": "What is the recommended starting dosage of Deferasirox for transfusional iron overload?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_00006",
+          "PASSAGE_00008",
+          "PASSAGE_00013"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "What severe warnings are associated with it?",
+        "manual_query": "What severe warnings, renal failure, or hepatic failure risks are associated with Deferasirox?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_00039",
+          "PASSAGE_00041",
+          "PASSAGE_04687"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Does this medication interact with antacids?",
+        "manual_query": "Does Deferasirox interact with aluminum-containing antacids?",
+        "phenomenon": "coreference",
+        "target_section": "DRUG INTERACTIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_00064",
+          "PASSAGE_04712",
+          "PASSAGE_00065"
+        ]
+      },
+      {
+        "turn_id": 5,
+        "raw_utterance": "What happens if someone accidentally overdoses?",
+        "manual_query": "What are the symptoms and treatment of an overdose of Deferasirox?",
+        "phenomenon": "omission",
+        "target_section": "OVERDOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_00068",
+          "PASSAGE_04716",
+          "PASSAGE_00069"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_02",
+    "topic_drug": "Celecoxib",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What medical conditions is Celecoxib used to treat?",
+        "manual_query": "What are the indications and clinical uses for Celecoxib?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_04926",
+          "PASSAGE_04927"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the typical dose for osteoarthritis?",
+        "manual_query": "What is the recommended dosage of Celecoxib for osteoarthritis?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_04930",
+          "PASSAGE_04928",
+          "PASSAGE_04929"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "Does it have a boxed warning for cardiovascular risk?",
+        "manual_query": "Does Celecoxib have a boxed warning for cardiovascular and gastrointestinal risk?",
+        "phenomenon": "coreference",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_04957",
+          "PASSAGE_04958"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Can patients allergic to sulfonamides take this drug?",
+        "manual_query": "Is Celecoxib contraindicated in patients with sulfonamide allergy?",
+        "phenomenon": "coreference",
+        "target_section": "CONTRAINDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_04974"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_03",
+    "topic_drug": "Pregabalin",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What is Pregabalin indicated for?",
+        "manual_query": "What conditions and neuropathic disorders is Pregabalin indicated for?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_02126"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "How should the dosage be adjusted for kidney problems?",
+        "manual_query": "How is the dosage of Pregabalin adjusted for patients with renal impairment?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_02135",
+          "PASSAGE_02129",
+          "PASSAGE_02136"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "What are the most common adverse reactions reported with it?",
+        "manual_query": "What are the most common adverse reactions of Pregabalin?",
+        "phenomenon": "coreference",
+        "target_section": "ADVERSE REACTIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_02157",
+          "PASSAGE_02160",
+          "PASSAGE_02163"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Can it cause physical dependence or withdrawal symptoms?",
+        "manual_query": "Can Pregabalin cause physical dependence, abuse, or withdrawal symptoms?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_02144",
+          "PASSAGE_02138",
+          "PASSAGE_02140"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_04",
+    "topic_drug": "Truvada",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What is Truvada used for?",
+        "manual_query": "What are the clinical indications of Truvada in HIV-1 treatment and PrEP?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_01425",
+          "PASSAGE_01426",
+          "PASSAGE_01469"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the recommended dosing schedule?",
+        "manual_query": "What is the recommended dosing schedule of Truvada for adults?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_01431",
+          "PASSAGE_01432",
+          "PASSAGE_01427"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "What boxed warnings does this drug carry?",
+        "manual_query": "What boxed warnings exist for Truvada regarding hepatitis B exacerbation and resistance?",
+        "phenomenon": "coreference",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_01450",
+          "PASSAGE_01451"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "What are its effects on renal function and bone mineral density?",
+        "manual_query": "What warnings are there for Truvada regarding renal toxicity and bone mineral density loss?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_01435",
+          "PASSAGE_01441",
+          "PASSAGE_01443"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_05",
+    "topic_drug": "Quetiapine Fumarate",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What psychiatric disorders is Quetiapine Fumarate prescribed for?",
+        "manual_query": "What psychiatric conditions is Quetiapine Fumarate indicated to treat?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_00539",
+          "PASSAGE_00541",
+          "PASSAGE_00540"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the initial titration dosage?",
+        "manual_query": "What is the initial dose titration of Quetiapine Fumarate?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_00543",
+          "PASSAGE_00542",
+          "PASSAGE_00544"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "Is there a black box warning for elderly patients with dementia?",
+        "manual_query": "Does Quetiapine Fumarate have a black box warning for increased mortality in elderly dementia patients?",
+        "phenomenon": "omission",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_00600",
+          "PASSAGE_00601",
+          "PASSAGE_00602"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Does it cause metabolic changes like hyperglycemia and weight gain?",
+        "manual_query": "Does Quetiapine Fumarate cause metabolic adverse effects like hyperglycemia, diabetes, and weight gain?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_00551",
+          "PASSAGE_00564",
+          "PASSAGE_00565"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_06",
+    "topic_drug": "Hydrocodone Bitartrate and Acetaminophen",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What is Hydrocodone Bitartrate and Acetaminophen used for?",
+        "manual_query": "What are the indications and usage of Hydrocodone Bitartrate and Acetaminophen?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_00285",
+          "PASSAGE_01671",
+          "PASSAGE_00347"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the maximum daily dose allowed?",
+        "manual_query": "What is the maximum daily dose of Hydrocodone Bitartrate and Acetaminophen?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_00289",
+          "PASSAGE_01675",
+          "PASSAGE_00290"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "What are the risks of liver toxicity with this medication?",
+        "manual_query": "What are the hepatotoxicity and liver failure risks of acetaminophen in Hydrocodone Bitartrate and Acetaminophen?",
+        "phenomenon": "coreference",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_00340",
+          "PASSAGE_01712",
+          "PASSAGE_00339"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Can it interact dangerously with benzodiazepines?",
+        "manual_query": "Does Hydrocodone Bitartrate and Acetaminophen interact with benzodiazepines or CNS depressants?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_00304",
+          "PASSAGE_00338",
+          "PASSAGE_01690"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_07",
+    "topic_drug": "Strattera",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What is Strattera indicated to treat?",
+        "manual_query": "What is Strattera indicated for in children and adults?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_03011"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the initial target dosage for children?",
+        "manual_query": "What is the starting dose and target dose of Strattera in pediatric patients?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_03012",
+          "PASSAGE_03014",
+          "PASSAGE_03015"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "Does it have a warning about suicidal thoughts in children?",
+        "manual_query": "Does Strattera carry a boxed warning for suicidal ideation in children and adolescents?",
+        "phenomenon": "coreference",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_03039",
+          "PASSAGE_03040"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "What adverse effects on heart rate and blood pressure are reported?",
+        "manual_query": "What cardiovascular adverse effects such as increased blood pressure and heart rate does Strattera cause?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_03028",
+          "PASSAGE_03019",
+          "PASSAGE_03029"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_08",
+    "topic_drug": "Buprenorphine and Naloxone",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What is Buprenorphine and Naloxone indicated for?",
+        "manual_query": "What is Buprenorphine and Naloxone sublingual tablet indicated for?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_01748",
+          "PASSAGE_02519"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "How is it administered sublingually?",
+        "manual_query": "How is Buprenorphine and Naloxone administered under the tongue?",
+        "phenomenon": "coreference",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_01750",
+          "PASSAGE_01758",
+          "PASSAGE_01759"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "What are the risks of respiratory depression with other sedatives?",
+        "manual_query": "What warnings exist for Buprenorphine and Naloxone regarding respiratory depression and benzodiazepines?",
+        "phenomenon": "omission",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_01768",
+          "PASSAGE_01771",
+          "PASSAGE_01772"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Can it cause precipitated opioid withdrawal if taken improperly?",
+        "manual_query": "Can Buprenorphine and Naloxone precipitate opioid withdrawal in dependent patients?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_01769",
+          "PASSAGE_01770",
+          "PASSAGE_01779"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_09",
+    "topic_drug": "MELOXICAM",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What are the clinical uses of Meloxicam?",
+        "manual_query": "What conditions and arthritis indications is Meloxicam prescribed for?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_04521"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the recommended once-daily dosage?",
+        "manual_query": "What is the starting and maximum daily dose of Meloxicam?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_04522",
+          "PASSAGE_04523",
+          "PASSAGE_04524"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "Does this NSAID increase the risk of stomach ulcers or bleeding?",
+        "manual_query": "Does Meloxicam cause gastrointestinal bleeding, ulceration, and perforation?",
+        "phenomenon": "coreference",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_04547",
+          "PASSAGE_04548",
+          "PASSAGE_04549"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Is it safe during the third trimester of pregnancy?",
+        "manual_query": "Is Meloxicam contraindicated or unsafe during the third trimester of pregnancy?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_04528",
+          "PASSAGE_04543",
+          "PASSAGE_04527"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_10",
+    "topic_drug": "Levetiracetam",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What types of seizures is Levetiracetam indicated to treat?",
+        "manual_query": "What seizure types and epilepsy conditions is Levetiracetam indicated for?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_03597",
+          "PASSAGE_03598"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the initial oral dosage for adults?",
+        "manual_query": "What is the recommended initial dose and titration for Levetiracetam in adults?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_03599",
+          "PASSAGE_03600",
+          "PASSAGE_03603"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "Can it trigger psychiatric or behavioral abnormalities?",
+        "manual_query": "Can Levetiracetam cause behavioral abnormalities, agitation, depression, or psychosis?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_03610",
+          "PASSAGE_03609",
+          "PASSAGE_03612"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Can it be stopped abruptly without tapering?",
+        "manual_query": "Why should Levetiracetam not be abruptly discontinued, and should it be tapered?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_03623",
+          "PASSAGE_03610",
+          "PASSAGE_03611"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_11",
+    "topic_drug": "Losartan Potassium and Hydrochlorothiazide",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What is Losartan Potassium and Hydrochlorothiazide used for?",
+        "manual_query": "What are the indications for Losartan Potassium and Hydrochlorothiazide in hypertension?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_01200",
+          "PASSAGE_01870",
+          "PASSAGE_01874"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the standard starting dose?",
+        "manual_query": "What is the usual starting dose of Losartan Potassium and Hydrochlorothiazide?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_01201",
+          "PASSAGE_01205",
+          "PASSAGE_01206"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "Is there a black box warning about fetal toxicity?",
+        "manual_query": "Does Losartan Potassium and Hydrochlorothiazide have a black box warning regarding fetal toxicity in pregnancy?",
+        "phenomenon": "omission",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_01215",
+          "PASSAGE_01885"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "What electrolyte imbalances can this combination cause?",
+        "manual_query": "What electrolyte and metabolic imbalances such as hyperkalemia or hyponatremia can Losartan and HCTZ cause?",
+        "phenomenon": "coreference",
+        "target_section": "WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_01882",
+          "PASSAGE_01209",
+          "PASSAGE_01213"
+        ]
+      }
+    ]
+  },
+  {
+    "session_id": "SESSION_12",
+    "topic_drug": "Naproxen Sodium",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 1,
+        "raw_utterance": "What conditions is Naproxen Sodium indicated for?",
+        "manual_query": "What are the indications and pain conditions treated by Naproxen Sodium?",
+        "phenomenon": "explicit",
+        "target_section": "INDICATIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_03140"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "raw_utterance": "What is the recommended dosage for acute gout?",
+        "manual_query": "What is the dosage of Naproxen Sodium for acute gout attacks?",
+        "phenomenon": "omission",
+        "target_section": "DOSAGE",
+        "relevant_passage_ids": [
+          "PASSAGE_03142",
+          "PASSAGE_03146",
+          "PASSAGE_03141"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "raw_utterance": "What boxed warnings are listed for this medication?",
+        "manual_query": "What cardiovascular and gastrointestinal boxed warnings are listed for Naproxen Sodium?",
+        "phenomenon": "coreference",
+        "target_section": "BOXED WARNING",
+        "relevant_passage_ids": [
+          "PASSAGE_03168",
+          "PASSAGE_03169"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "raw_utterance": "Does it interact with ACE inhibitors or diuretics?",
+        "manual_query": "Does Naproxen Sodium reduce the antihypertensive effect of ACE inhibitors and diuretics?",
+        "phenomenon": "coreference",
+        "target_section": "DRUG INTERACTIONS",
+        "relevant_passage_ids": [
+          "PASSAGE_03189",
+          "PASSAGE_03182",
+          "PASSAGE_03183"
+        ]
+      }
+    ]
+  }
+]
