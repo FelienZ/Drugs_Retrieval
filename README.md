@@ -246,6 +246,26 @@ Jika Anda ingin mereproduksi atau memodifikasi seluruh tahapan riset dari awal:
 
 ---
 
+## 🖥️ Menjalankan Aplikasi Web UI (Drugs IR System)
+
+Selain antarmuka CLI terminal, sistem ini dilengkapi antarmuka grafis Web UI modern (**Drugs IR System**) bernuansa putih klinis (*healthcare aesthetic*) yang responsif, bebas *AI-slop*, dan berjalan langsung melalui server lokal Python bawaan:
+
+### Menjalankan Server Aplikasi:
+Pastikan virtual environment telah aktif, lalu jalankan:
+```powershell
+python app.py
+```
+Aplikasi akan langsung menginisialisasi model di memori, menjalankan server lokal pada `http://127.0.0.1:7860`, dan membuka peramban web (*browser*) Anda secara otomatis.
+
+### Fitur Utama Antarmuka Web:
+- **Conversational Multi-Turn Consultation**: Mendukung penelusuran obat interaktif multi-turn dengan resolusi koreferensi/elipsis kontekstual tanpa meracuni memori sesi.
+- **Transparansi Algoritma (Search Details)**: Setiap kartu jawaban dilengkapi inspektor *multi-stage IR* Lin et al. (2021) untuk memantau kueri asli (*Input query*), hasil parafrase T5-CANARD (*Rewritten query*), ekspansi kata kunci BM25 (+POS spaCy) (*Expanded query*), dan probabilitas relevansi Cross-Encoder.
+- **Drug Directory Modal**: Menampilkan katalog seluruh obat terdaftar dalam korpus openFDA beserta seksi medis yang tersedia untuk mempermudah pencarian.
+- **Deterministic Out-of-Topic Guard**: Memberikan peringatan visual jika kueri di luar basis data obat tanpa memasukkannya ke dalam riwayat percakapan.
+- **Aksi Cepat & Salin**: Tombol salin teks pasase resmi (*Copy*), tombol pembersih sesi (*Reset*), serta rekomendasi kueri klinis cepat.
+
+---
+
 ## 📚 Referensi & Sitasi
 
 ```bibtex

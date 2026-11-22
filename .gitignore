@@ -2,4 +2,9 @@ venv**
 __pycache__**
 **.py
 !interactive_cli.py
+!app.py
 raw
+*.pptx
+*.ppt
+Slide*
+DESIGN.md
